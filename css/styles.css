@@ -1,0 +1,40 @@
+:root {
+    --color-brand: #2B7FFF;
+    --color-text: #011C44;
+    --color-button-text: #FFFFFF;
+    --color-accent: #2B7FFF;
+    --primary-font: 'Open Sans', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+}
+
+.button {
+    background-color: var(--color-brand);
+    color: var(--color-button-text);
+    border: 2px;
+    border-radius: 32px;
+    border-color: var(--color-brand);
+}
+
+.button:hover {
+    border-color: var(--color-brand);
+    background-color: transparent;
+    border: 2px;
+    border-radius: 32px;
+    color: var(--color-text);
+}
+
+ul {
+    list-style-type: none;
+}
+
+address {
+    list-style-type: none;
+}
+
+.hero-title {
+    color: var(--color-brand);
+}
+
+h2 .accent {
+    color: var(--color-accent);
+}
